@@ -1,7 +1,7 @@
 # Google News Decoder for Go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/alainmucyo/gnewsdecoder.svg)](https://pkg.go.dev/github.com/alainmucyo/gnewsdecoder)
-[![Go Report Card](https://goreportcard.com/badge/github.com/alainmucyo/gnewsdecoder)](https://goreportcard.com/report/github.com/alainmucyo/gnewsdecoder)
+[![Go Reference](https://pkg.go.dev/badge/github.com/alainmucyo/google-news-url-decoder.svg)](https://pkg.go.dev/github.com/alainmucyo/google-news-url-decoder)
+[![Go Report Card](https://goreportcard.com/badge/github.com/alainmucyo/google-news-url-decoder)](https://goreportcard.com/report/github.com/alainmucyo/google-news-url-decoder)
 
 A Go package to decode Google News article URLs to their original source URLs. This is a Go port of the Python package [googlenewsdecoder](https://github.com/SSujitX/google-news-url-decoder) by SSujitX.
 
@@ -18,7 +18,7 @@ A Go package to decode Google News article URLs to their original source URLs. T
 ## Installation
 
 ```bash
-go get github.com/alainmucyo/gnewsdecoder
+go get github.com/alainmucyo/google-news-url-decoder
 ```
 
 ## Quick Start
@@ -28,7 +28,7 @@ package main
 
 import (
     "fmt"
-    gnews "github.com/alainmucyo/gnewsdecoder"
+    gnews "github.com/alainmucyo/google-news-url-decoder"
 )
 
 func main() {
@@ -48,7 +48,7 @@ func main() {
 ### Simple Decoding
 
 ```go
-import gnews "github.com/alainmucyo/gnewsdecoder"
+import gnews "github.com/alainmucyo/google-news-url-decoder"
 
 // Basic usage
 result := gnews.GNewsDecoder(sourceURL, nil, nil)

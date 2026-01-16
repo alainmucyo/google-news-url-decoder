@@ -1,4 +1,4 @@
-module github.com/alainmucyo/gnewsdecoder
+module github.com/alainmucyo/google-news-url-decoder
 
 go 1.24.0
 

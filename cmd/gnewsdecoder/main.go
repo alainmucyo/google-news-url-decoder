@@ -18,7 +18,7 @@ import (
 	"os"
 	"time"
 
-	gnews "github.com/alainmucyo/gnewsdecoder"
+	gnews "github.com/alainmucyo/google-news-url-decoder"
 )
 
 func main() {

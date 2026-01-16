@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	gnews "github.com/alainmucyo/gnewsdecoder"
+	gnews "github.com/alainmucyo/google-news-url-decoder"
 )
 
 func TestDecoderV1_SimpleURL(t *testing.T) {
